@@ -1,1 +1,93 @@
-{"nav":{"projects":"Projects","notes":"Technical Notes","timeline":"Timeline","skills":"Skills","contact":"Contact"},"hero":{"title":"Hello, I'm ButterflyPoet","subtitle":"Electronics · Embedded Systems · Control & Automation","description":"A home for my engineering projects, technical notes, and learning journey. Content is being organized.","cta":"Explore Projects ↓"},"filters":{"all":"All","hardware":"Hardware","control":"Control & Simulation","system":"System Integration"},"projects":{"intro":"These are clearly marked layout placeholders, not completed personal projects.","detail":"View details","hardware":{"title":"Hardware Project · Placeholder","desc":"Space for PCB design, circuit development, component selection and hardware testing.","detail":"Future content: project overview, schematics, PCB, test results and individual contributions. Placeholder only."},"control":{"title":"Control Project · Placeholder","desc":"Space for modeling, control algorithms, simulation results and performance evaluation.","detail":"Future content: mathematical models, control diagrams, simulation plots and validation. Placeholder only."},"system":{"title":"Integrated System · Placeholder","desc":"Space for embedded firmware, sensors, communication and hardware-software integration.","detail":"Future content: system architecture, implementation, debugging and results. Placeholder only."}},"notes":{"intro":"Selected technical notes and engineering practice, coming soon.","circuits":{"title":"Electronics","desc":"Circuit design, component analysis, PCB and measurements."},"embedded":{"title":"Embedded Systems","desc":"Microcontrollers, communication protocols, firmware and debugging."},"algorithms":{"title":"Control & Algorithms","desc":"Modeling, feedback control, optimization and simulation."}},"timeline":{"intro":"Timeline framework is ready for verified experiences.","entry1":{"date":"To be added","title":"Education · Coming soon","desc":"Undergraduate and graduate experiences will be added later."},"entry2":{"date":"To be added","title":"Projects & Competitions · Coming soon","desc":"Real projects and achievements will be added later."}},"skills":{"intro":"These are example categories, not claims of proficiency.","hardware":"Hardware Design","embedded":"Embedded Development","control":"Control & Simulation","tools":"Software & Tools"},"contact":{"text":"Visit my GitHub for future project updates. More contact options will be added.","source":"Website Source ↗"},"footer":{"note":"Built with vanilla HTML / CSS / JavaScript"}}
+{
+  "nav": {
+    "projects": "Projects",
+    "notes": "Technical Notes",
+    "timeline": "Timeline",
+    "skills": "Skills",
+    "contact": "Contact"
+  },
+  "hero": {
+    "title": "Hello, I'm ButterflyPoet",
+    "subtitle": "Electronics · Embedded Systems · Control & Automation",
+    "description": "A home for my engineering projects, technical notes, and learning journey. Content is being organized.",
+    "cta": "Explore Projects ↓",
+    "scroll": "SCROLL TO EXPLORE"
+  },
+  "filters": {
+    "all": "All",
+    "hardware": "Hardware",
+    "control": "Control & Simulation",
+    "system": "System Integration"
+  },
+  "projects": {
+    "intro": "These are clearly marked layout placeholders, not completed personal projects.",
+    "detail": "View details",
+    "hardware": {
+      "title": "Hardware Project · Placeholder",
+      "desc": "Space for PCB design, circuit development, component selection and hardware testing.",
+      "detail": "Future content: project overview, schematics, PCB, test results and individual contributions. Placeholder only."
+    },
+    "control": {
+      "title": "Control Project · Placeholder",
+      "desc": "Space for modeling, control algorithms, simulation results and performance evaluation.",
+      "detail": "Future content: mathematical models, control diagrams, simulation plots and validation. Placeholder only."
+    },
+    "system": {
+      "title": "Integrated System · Placeholder",
+      "desc": "Space for embedded firmware, sensors, communication and hardware-software integration.",
+      "detail": "Future content: system architecture, implementation, debugging and results. Placeholder only."
+    },
+    "status": "Coming soon",
+    "footnote": "Example cards illustrate the layout; real projects will be added later.",
+    "sections": {
+      "overview": "01 / Overview",
+      "architecture": "02 / System architecture",
+      "implementation": "03 / Implementation",
+      "results": "04 / Testing & results"
+    },
+    "sectionPlaceholder": "Reserved for verified project information, diagrams, code, engineering process and measurements.",
+    "disclaimer": "This is a content template, not a claim of a completed project."
+  },
+  "notes": {
+    "intro": "Selected technical notes and engineering practice, coming soon.",
+    "circuits": {
+      "title": "Electronics",
+      "desc": "Circuit design, component analysis, PCB and measurements."
+    },
+    "embedded": {
+      "title": "Embedded Systems",
+      "desc": "Microcontrollers, communication protocols, firmware and debugging."
+    },
+    "algorithms": {
+      "title": "Control & Algorithms",
+      "desc": "Modeling, feedback control, optimization and simulation."
+    }
+  },
+  "timeline": {
+    "intro": "Timeline framework is ready for verified experiences.",
+    "entry1": {
+      "date": "To be added",
+      "title": "Education · Coming soon",
+      "desc": "Undergraduate and graduate experiences will be added later."
+    },
+    "entry2": {
+      "date": "To be added",
+      "title": "Projects & Competitions · Coming soon",
+      "desc": "Real projects and achievements will be added later."
+    }
+  },
+  "skills": {
+    "intro": "These are example categories, not claims of proficiency.",
+    "hardware": "Hardware Design",
+    "embedded": "Embedded Development",
+    "control": "Control & Simulation",
+    "tools": "Software & Tools"
+  },
+  "contact": {
+    "text": "Visit my GitHub for future project updates. More contact options will be added.",
+    "source": "Website Source ↗"
+  },
+  "footer": {
+    "note": "Built with vanilla HTML / CSS / JavaScript"
+  }
+}
