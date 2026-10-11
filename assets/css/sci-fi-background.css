@@ -1,0 +1,30 @@
+/* ButterflyPoet V1.3 - light/dark parametric sci-fi hero. Decorative only. */
+.hero{position:relative;isolation:isolate;overflow:hidden;background:var(--bg);min-height:490px;padding-top:58px;padding-bottom:64px}
+.hero::after{content:"";position:absolute;z-index:-1;inset:45% 0 0;pointer-events:none;background:linear-gradient(to bottom,transparent,var(--bg) 94%)}
+.sci-fi-scene{position:absolute;z-index:-2;inset:0;overflow:hidden;pointer-events:none;background:radial-gradient(ellipse 45% 70% at 17% 49%,rgba(87,198,255,.13),transparent 78%),radial-gradient(ellipse 45% 70% at 85% 46%,rgba(177,129,252,.14),transparent 80%),linear-gradient(115deg,#f7fcff 0%,#f8faff 49%,#fbf7ff 100%)}
+.sci-fi-waves{position:absolute;inset:-4% -6%;background:url('../images/parametric-waves.svg') center 54%/cover no-repeat;opacity:.78;animation:wave-drift 24s ease-in-out infinite alternate;transform-origin:center}
+.sci-fi-aura{position:absolute;border-radius:50%;filter:blur(44px);opacity:.4;will-change:transform;animation:aura-drift 23s ease-in-out infinite alternate}
+.aura-one{width:36%;height:42%;left:-9%;top:16%;background:#8cdeff}.aura-two{width:34%;height:50%;right:-8%;top:5%;background:#d7b4ff;animation-delay:-11s}
+.sci-fi-orbit{position:absolute;width:94%;height:52%;left:3%;top:13%;border:1px solid rgba(75,125,229,.14);border-radius:50%;transform:rotate(-9deg)}
+.orbit-two{width:80%;height:60%;left:10%;top:16%;transform:rotate(13deg);border-color:rgba(156,119,228,.12)}
+.sci-fi-sphere{position:absolute;border-radius:50%;box-shadow:inset -10px -13px 20px rgba(73,109,216,.12),inset 8px 9px 17px rgba(255,255,255,.9),0 0 25px rgba(116,166,247,.15);background:radial-gradient(circle at 31% 24%,rgba(255,255,255,.96),rgba(143,212,255,.55) 42%,rgba(146,127,243,.22) 78%,rgba(195,130,241,.12));border:1px solid rgba(255,255,255,.8);animation:sphere-float 18s ease-in-out infinite alternate}
+.sphere-one{width:52px;height:52px;left:17%;top:19%}.sphere-two{width:82px;height:82px;right:12%;top:35%;animation-delay:-8s}
+.hero>.avatar,.hero>.eyebrow,.hero>h1,.hero>.lead,.hero>.muted,.hero>.hero-links,.hero>.hero-hint{position:relative;z-index:1}
+.hero>h1{text-shadow:0 2px 22px rgba(255,255,255,.75)}
+.hero>.muted,.hero>.lead{color:#586d91}
+.hero .avatar{box-shadow:0 0 0 7px rgba(255,255,255,.48),0 13px 40px rgba(63,116,216,.2)}
+.hero-links .secondary{background:rgba(255,255,255,.78);backdrop-filter:blur(8px);border-color:rgba(111,145,210,.22)}
+[data-theme=dark] .hero{background:#090f21}
+[data-theme=dark] .sci-fi-scene{background:radial-gradient(ellipse 44% 70% at 12% 43%,rgba(15,103,222,.21),transparent 78%),radial-gradient(ellipse 42% 72% at 88% 40%,rgba(112,48,193,.23),transparent 80%),linear-gradient(120deg,#071126,#0b1530 51%,#140f2e)}
+[data-theme=dark] .sci-fi-waves{opacity:.86;filter:saturate(1.6) brightness(1.22)}
+[data-theme=dark] .aura-one{background:#1558d4;opacity:.32}[data-theme=dark] .aura-two{background:#8136d8;opacity:.35}
+[data-theme=dark] .sci-fi-orbit{border-color:rgba(83,142,255,.25)}[data-theme=dark] .orbit-two{border-color:rgba(178,116,255,.18)}
+[data-theme=dark] .sci-fi-sphere{background:radial-gradient(circle at 31% 25%,rgba(98,184,255,.8),rgba(36,76,178,.52) 45%,rgba(108,54,190,.18) 80%);box-shadow:inset -10px -13px 19px rgba(2,7,25,.48),0 0 25px rgba(57,112,247,.25);border-color:rgba(123,181,255,.3)}
+[data-theme=dark] .hero>h1{text-shadow:0 2px 28px rgba(11,25,62,.65)}
+[data-theme=dark] .hero>.muted,[data-theme=dark] .hero>.lead{color:#b3c5e7}
+[data-theme=dark] .hero-links .secondary{background:rgba(13,28,56,.76);border-color:rgba(121,155,221,.32)}
+@keyframes wave-drift{from{transform:translate3d(-1%,0,0) scale(1.015)}to{transform:translate3d(1%,1.2%,0) scale(1.045)}}
+@keyframes aura-drift{from{transform:translate3d(0,0,0)}to{transform:translate3d(7%,8%,0)}}
+@keyframes sphere-float{from{transform:translateY(0)}to{transform:translateY(-13px)}}
+@media(max-width:750px){.hero{min-height:440px;padding:46px 16px 48px}.sci-fi-waves{inset:0 -65%;background-size:auto 100%;opacity:.55}.sphere-one{left:3%;top:19%;width:36px;height:36px}.sphere-two{right:1%;top:32%;width:50px;height:50px}.sci-fi-orbit{width:130%;left:-15%}}
+@media(prefers-reduced-motion:reduce){.sci-fi-waves,.sci-fi-aura,.sci-fi-sphere{animation:none!important;transform:none!important}}

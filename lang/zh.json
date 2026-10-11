@@ -7,11 +7,12 @@
     "contact": "联系我"
   },
   "hero": {
-    "title": "你好，我是 ButterflyPoet",
+    "title": "你好，我是蝴蝶诗人",
     "subtitle": "电子工程 · 嵌入式系统 · 控制与自动化",
     "description": "这里将展示我的工程项目、技术笔记和学习经历。内容正在逐步整理中。",
     "cta": "查看项目 ↓",
-    "scroll": "向下探索"
+    "scroll": "向下探索",
+    "contactCta": "联系我 ↗"
   },
   "filters": {
     "all": "全部",
@@ -89,5 +90,8 @@
   },
   "footer": {
     "note": "基于原生 HTML / CSS / JavaScript 构建"
+  },
+  "site": {
+    "brand": "蝴蝶诗人"
   }
 }

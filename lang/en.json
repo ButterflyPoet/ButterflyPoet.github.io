@@ -11,7 +11,8 @@
     "subtitle": "Electronics · Embedded Systems · Control & Automation",
     "description": "A home for my engineering projects, technical notes, and learning journey. Content is being organized.",
     "cta": "Explore Projects ↓",
-    "scroll": "SCROLL TO EXPLORE"
+    "scroll": "SCROLL TO EXPLORE",
+    "contactCta": "Contact ↗"
   },
   "filters": {
     "all": "All",
@@ -89,5 +90,8 @@
   },
   "footer": {
     "note": "Built with vanilla HTML / CSS / JavaScript"
+  },
+  "site": {
+    "brand": "ButterflyPoet"
   }
 }

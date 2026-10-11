@@ -41,3 +41,16 @@
 :focus-visible{outline:3px solid var(--blue);outline-offset:3px}
 @media(max-width:850px){.nav{height:auto}.hero{padding-top:48px}.section{padding:55px 20px}}
 @media(max-width:560px){.hero{padding:39px 16px 39px}.avatar{width:85px;height:85px}.hero h1{font-size:30px}.hero-hint{margin-top:23px}.detail-grid{grid-template-columns:1fr}.dialog-inner{padding:21px}.project-grid{gap:15px}}
+
+/* V1.2: more breathing room in navigation, prominent contact entry */
+.nav{gap:28px}
+.nav nav{gap:clamp(28px,3.1vw,52px);align-items:center}
+.nav nav a{font-size:13px;white-space:nowrap}
+.nav .nav-contact{color:var(--blue);font-weight:800}
+.hero-links{flex-wrap:wrap;justify-content:center}
+/* Scroll-into-view timeline reveal: activated by IntersectionObserver */
+.timeline .event.reveal-event{opacity:0;transform:translateY(28px);transition:opacity .65s ease,transform .65s cubic-bezier(.2,.75,.3,1)}
+.timeline .event.reveal-event.is-visible{opacity:1;transform:translateY(0)}
+@media(max-width:1050px){.nav nav{gap:22px}.nav{gap:16px}}
+@media(max-width:850px){.nav nav{gap:22px;justify-content:flex-start;padding-bottom:3px}.nav .nav-contact{order:-1}}
+@media(prefers-reduced-motion:reduce){.timeline .event.reveal-event{opacity:1;transform:none;transition:none}}
